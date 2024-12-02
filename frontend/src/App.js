@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import CustomerCare from './components/CustomerCare';
+import CustomerCare from './components/components/CustomerCare';
 import Home from './components/components/Home';
 import NavBar from './components/components/NavBar';
 import Orders from './components/components/Orders';
 import ShoppingCart from './components/components/ShoppingCart';
-import SignIn from './components/SignIn';
+import SignIn from './components/components/SignIn';
 import SignUp from './components/components/SignUp';
 
 function App() {
